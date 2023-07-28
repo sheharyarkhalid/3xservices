@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Prata&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <link rel="stylesheet" href="css/style.css">
+
+      <script type="text/javascript" src="script/script.js"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css" rel="stylesheet">
+
+    </head>
+<body>
+
+
+ <section class="web_header"> 
+     <div class="custom_container">
+         <div class="web_header_main">
+           <div class="web_header_0">
+             <ul class="web_header_0_list_1">
+               <li class="web_header_logo"><a href="index.html"><img style="width:130px;" src="images/logo.png"></a></li>
+             </ul>
+             <div>
+             <ul class="web_header_0_list_2">
+              <li><a href="index.html">Home</a> </li>
+              <li><a href="shop.html">Shop</a> </li>
+              <li><a href="about.html">About</a> </li>
+              <li><a href="contact.html">Contact</a> </li>
+           </ul>
+              <ul class="web_header_0_list_3">
+                <li> <div class="input-group desktop_header_search">
+                  <button type="button" class="btn btn-primary">
+                    <i class="fas fa-search"></i>
+                  </button>
+                  <div class="form-outline">
+                    <input type="search" id="form1" class="form-control" placeholder="Search" />
+                  </div>
+                 
+                </div></li>
+                <li><a href="login.html"><i class="fal fa-user"></i></a> </li>
+                <li><a href="cart_page.html" class="header_cart"><i class="fal fa-shopping-cart"></i><p>0</p></a> </li>
+                <li><a href="shop.html" class="header_contact_btn">Order Now</a> </li>
+             </ul>
+             </div>
+          </div>
+        </div>
+     </div> 
+       </section>
+
+ <section class="mobile_header"> 
+     <div class="custom_container">
+         <div class="mobile_header_main">
+           <div class="mobile_header_0">
+          
+             <ul class="mobile_header_0_list_1">
+                 <li><a class="mobile_res_toggle_btn"><i class="fal fa-bars"></i></a> </li> 
+              </ul>
+              <ul class="mobile_header_0_list_2">
+                <li class="mobile_header_logo"><a href="index.html"><img style="width:120px;" src="images/logo.png"></a></li>
+              </ul>
+              <ul class="mobile_header_0_list_3">
+                <li><a href="login.html"><i class="fal fa-user"></i></a> </li>
+                <li><a href="cart_page.html" class="header_cart"><i class="fal fa-shopping-cart"></i><p>0</p></a> </li>
+             </ul>
+
+           
+          </div>
+          
+
+          <div class="mobile_header_1">
+            <ul class="mobile_header_1_list_0">
+            <form>
+                <div class="mobile_header_search_section">
+                <i class="fal fa-search"></i>
+                <input type="search" placeholder="search here">
+                </div>
+            </form>
+            </ul>
+         </div>
+
+        </div>
+     </div> 
+ 
+    <div class="mobile_res_toggle_content">
+     <div class="mobile_res_toggle_content_cancle">
+        <a class="mobile_res_toggle_btn" style="font-size:20px;"><i class="fas fa-times" style="font-weight: 300;"></i></a></div>
+   
+     <ul class="mobile_res_toggle_list_1">
+      <li><a href="index.html">Home</a> </li>
+      <li><a href="shop.html">Shop</a> </li>
+      <li><a href="about.html">About</a> </li>
+      <li><a href="contact.html">Contact</a> </li>
+      </ul>
+  
+ 
+         </section>
+
+
+          <section class="banner_section">
+          <div class="Banner_slider">
+          <div class="Banner">
+          <figure><img src="images/banner_one.jpg" />
+          <section class="banner_text_section">
+          <div class="banner_one_custom_container">
+          <div class="banner_slider_text_parent">
+          <div class="banner_slider_text"><small>Lorem Ipsum</small>
+          <h2>Experience the Taste of Joy</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+          <div class="first_banner_shop_btn"><a href="shop.html">Order Online</a></div>
+          </div>
+          </div>
+          </div>
+          </section>
+          </figure>
+          </div>
+          <div class="Banner">
+          <figure><img src="images/banner_two.jpg" />
+          <section class="banner_text_section">
+          <div class="banner_one_custom_container">
+          <div class="banner_slider_text_parent">
+          <div class="banner_slider_text"><small>4K Resolution</small>
+          <h2>Exclusive Steel Frame </h2>
+          <p>Experience High Performance and Secure</p>
+          <div class="first_banner_shop_btn"><a href="shop.html">Order Online</a></div>
+          </div>
+          </div>
+          </div>
+          </section>
+          </figure>
+          </div>
+          <div class="Banner">
+          <figure><img src="images/banner_three.jpg" />
+          <section class="banner_text_section">
+          <div class="banner_one_custom_container">
+          <div class="banner_slider_text_parent">
+          <div class="banner_slider_text"><small>Lorem Ipsum</small>
+          <h2>Deliciously classic apple</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+          <div class="first_banner_shop_btn"><a href="shop.html">Order Online</a></div>
+          </div>
+          </div>
+          </div>
+          </section>
+          </figure>
+          </div>
+       
+          </div>
+          </section>
+     
+          
+            <div class="feature_section_header">
+            <div class="custom_container">
+            <div class="feature_section_header_box">
+            <h5>Featured Products</h5>
+            <small></small> <a href="shop.html">View All</a></div>
+            </div>
+            </div>
+
+
+
+
+
+            <section class="product_listing_section">
+              <div class="product_container">
+                  
+                   
+                  <div class="product_list_parent">
+                      <div class="single_product_box_main">
+                      <div class="single_product_box">
+                          <figure>
+                              <img src="images/new1.jpg">
+                              
+                          </figure>
+                          <div class="single_product_box_figcaption">
+                             
+                               <div class="product_name"><p>Headset for office and gaming</p></div>
+                               <div class="product_description"><p>This headset is the perfect all-around choice for those who are looking for comfortable, practical sound quality. </p></div>
+                               <div class="price_tags"><div class="total_and_discount_price"><small class="orignal_price">NOK 850</small><h6 class="discount_price text_decoration_line_through">NOK 333.50</h6></div></div>
+                               <div class="product_cart_btn"><a href="detail-page.html">Add to Cart</a></div>
+                              </div>
+                      </div>
+                       </div>
+                       <div class="single_product_box_main">
+                      <div class="single_product_box">
+                          <figure>
+                            <img src="images/new2.jpg">
+                              
+                          </figure>
+                          <div class="single_product_box_figcaption">
+                             
+                               <div class="product_name"><p>Gaming mouse</p></div>
+                               <div class="product_description"><p>This gaming mouse is packed with features that make it the perfect tool for any gaming session. </p></div>
+                               <div class="price_tags"><div class="total_and_discount_price"><small class="orignal_price">NOK 700</small></div></div>
+                               <div class="product_cart_btn"><a href="detail-page.html">Add to Cart</a></div>
+                              </div>
+                      </div>
+                  </div>
+                      <div class="single_product_box_main">
+                      <div class="single_product_box">
+                          <figure>
+                              <img src="images/new3.jpg">
+                              
+                          </figure>
+                          <div class="single_product_box_figcaption">
+                             
+                               <div class="product_name"><p>Hot gaming headset</p></div>
+                               <div class="product_description"><p>Are you looking for the ultimate gaming headset? Look no further than the Flexible Gaming Headset! With top-notch sound quality and stylish lights on the sides, you'll be ready for your next gaming session. </p></div>
+                               <div class="price_tags"><div class="total_and_discount_price"><small class="orignal_price">NOK 1200</small></div></div>
+                               <div class="product_cart_btn"><a href="detail-page.html">Add to Cart</a></div>
+                              </div>
+                      </div>
+                  </div>
+                      <div class="single_product_box_main">
+                      <div class="single_product_box">
+                          <figure>
+                              <img src="images/new4.jpg">
+                              
+                          </figure>
+                          <div class="single_product_box_figcaption">
+                             
+                               <div class="product_name"><p>Xbox gaming console + controller</p></div>
+                               <div class="product_description"><p>Experience the ultimate gaming experience with the Xbox Console! This sleek white Xbox console comes with the must-have Xbox wireless controller, so you can dive into the action right away.</p></div>
+                               <div class="price_tags"><div class="total_and_discount_price"><small class="orignal_price">NOK 6800</small></div></div>
+                               <div class="stock_box"><p>Not Available</p></div>
+                              </div>
+                      </div>
+                  </div>
+                      
+                  </div>
+      
+              </div>
+          </section>
+
+
+ 
+        <section class="product_category_section">
+        <div class="custom_container">
+        <div class="product_category_main">
+        <div class="custom_sliding_box">
+         <small>Shop collection</small>
+        <h5>Categories</h5>
+        <p>We offer now a great range of different accesories bite size different in categories.</p>
+        <div class="category_slider_arrow_box"></div>
+        </div>
+        <div class="product_category_list">
+        
+        <ul class="product_category_slider">
+        
+        <li>
+        <div class="product_category_figure_box">
+        <figure>
+        <a >
+          <img src="images/bag1.webp">
+        </a>
+        </figure>
+        <div class="product_category_figure_tags">
+         <a>
+         <span>  
+      Bags
+        </span>    
+        </a>
+        </div>
+        </div>
+        </li>
+        <li>
+         <div class="product_category_figure_box">
+         <figure>
+         <a >
+          <img src="images/phone1.png">
+         </a>
+          </figure>
+         <div class="product_category_figure_tags">
+           <a>
+           <span>  
+         Phones
+          </span>    
+          </a>
+          </div>
+         </div>
+         </li>
+         <li>
+           <div class="product_category_figure_box">
+           <figure>
+           <a >
+            <img src="images/headphone.png">
+           </a>
+            </figure>
+           <div class="product_category_figure_tags">
+             <a>
+             <span>  
+              Headphones
+            </span>    
+            </a>
+            </div>
+           </div>
+           </li>
+           <li>
+             <div class="product_category_figure_box">
+             <figure>
+             <a >
+              <img src="images/xbox.webp">
+             </a>
+              </figure>
+             <div class="product_category_figure_tags">
+               <a>
+               <span>  
+              xbox
+              </span>    
+              </a>
+              </div>
+             </div>
+             </li>
+             <li>
+               <div class="product_category_figure_box">
+               <figure>
+               <a >
+                <img src="images/pcscreen.png">
+               </a>
+                </figure>
+               <div class="product_category_figure_tags">
+                 <a>
+                 <span>  
+                 PC Screen
+                </span>    
+                </a>
+                </div>
+               </div>
+               </li>
+        
+        </ul>
+        
+        </div>
+        </div>
+        </div>
+        </section>
+       
+        
+
+         <section class="feature_2_section">
+         <div class="custom_container">
+         <div class="feature_2_section_header">
+         <h3>Try our products</h3>
+         <p>With its authentic blend of hand-picked apples and natural fermentation, 401 cider is the perfect balance of tradition and innovation.</p>
+         </div>
+         </div>
+         </section>
+
+
+
+         <section class="product_listing_section">
+          <div class="product_container">
+              
+               
+              <div class="product_list_parent">
+                  <div class="single_product_box_main">
+                  <div class="single_product_box">
+                      <figure>
+                          <img src="images/xbox.webp">
+                          
+                      </figure>
+                      <div class="single_product_box_figcaption">
+                         
+                           <div class="product_name"><p>My Yellow Submarine T-Shirt for Kids – Red</p></div>
+                           <div class="product_description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                           <div class="price_tags"><div class="total_and_discount_price"><small class="orignal_price">NOK 333.50</small><h6 class="discount_price text_decoration_line_through">NOK 333.50</h6></div></div>
+                           <div class="product_cart_btn"><a href="detail-page.html">Add to Cart</a></div>
+                          </div>
+                  </div>
+                   </div>
+                   <div class="single_product_box_main">
+                  <div class="single_product_box">
+                      <figure>
+                        <img src="images/headphone.png">
+                          
+                      </figure>
+                      <div class="single_product_box_figcaption">
+                         
+                           <div class="product_name"><p>My Yellow Submarine T-Shirt for Kids – Red</p></div>
+                           <div class="product_description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                           <div class="price_tags"><div class="total_and_discount_price"><small class="orignal_price">NOK 333.50</small></div></div>
+                           <div class="product_cart_btn"><a href="detail-page.html">Add to Cart</a></div>
+                          </div>
+                  </div>
+              </div>
+                  <div class="single_product_box_main">
+                  <div class="single_product_box">
+                      <figure>
+                          <img src="images/phone1.png">
+                          
+                      </figure>
+                      <div class="single_product_box_figcaption">
+                         
+                           <div class="product_name"><p>My Yellow Submarine T-Shirt for Kids – Red</p></div>
+                           <div class="product_description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                           <div class="price_tags"><div class="total_and_discount_price"><small class="orignal_price">NOK 333.50</small></div></div>
+                           <div class="product_cart_btn"><a href="detail-page.html">Add to Cart</a></div>
+                          </div>
+                  </div>
+              </div>
+                  <div class="single_product_box_main">
+                  <div class="single_product_box">
+                      <figure>
+                          <img src="images/pcscreen.png">
+                          
+                      </figure>
+                      <div class="single_product_box_figcaption">
+                         
+                           <div class="product_name"><p>My Yellow Submarine T-Shirt for Kids – Red</p></div>
+                           <div class="product_description"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+                           <div class="price_tags"><div class="total_and_discount_price"><small class="orignal_price">NOK 333.50</small></div></div>
+                           <div class="stock_box"><p>Not Available</p></div>
+                          </div>
+                  </div>
+              </div>
+                  
+              </div>
+  
+          </div>
+      </section>
+
+
+        <section class="home_page_second_banner_section">
+        <div class="custom_container">
+        <div class="home_page_second_banner_box">
+        <figure><img src="images/xbox.webp" /></figure>
+        <div class="home_page_second_banner_figcaption"><small>Loream Ipsum</small>
+        <h4>Buy Our Best Products</h4>
+        <p>Experience the warm and comforting taste of homemade goodness with every slice of our freshly baked pies.</p>
+        <div class="application_download_links"><a href="shop.html">Order Online</a></div>
+        </div>
+        </div>
+        </div>
+        </section>
+
+
+     <section class="testimonial_section">
+     <div class="custom_container">
+     <div class="testimonial_heading">
+     <h3>What Customers Say?</h3>
+     <a>All Reviews</a></div>
+     <div class="testimonial_main">
+     <div class="testimonial_list">
+     <div class="testimonial_slider_arrow_box"></div>
+     <ul class="testimonial_slider">
+     <li>
+     <div class="testimonial_data_box">
+     <div class="testimonial_figure_box">
+     <figure><img class="lazy" src="https://static.tossdown.com/images/092cfb57-6805-46d6-a38c-7e5918039120.png" /></figure>
+     <div class="testimonial_reviewer_data">
+     <h4>Joe, 17</h4>
+     <div class="testimonial_rating_stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fad fa-star-half-alt"></i></div>
+     </div>
+     </div>
+     <div class="testimonial_description">
+     <p>I recently purchased a headset from Cyberpunk Gaming Gear, and it was an awesome experience. The headset is super comfortable and has amazing sound quality. It's really helped me up my game and I'm so glad I made this purchase</p>
+     </div>
+     <div class="testimonial_date_field"><span>17th january,2023</span></div>
+     </div>
+     </li>
+     <li>
+     <div class="testimonial_data_box">
+     <div class="testimonial_figure_box">
+     <figure><img class="lazy" src="https://static.tossdown.com/images/1f828e5f-5406-4b26-97f5-d018200df8db.png" /></figure>
+     <div class="testimonial_reviewer_data">
+     <h4>Alex, 22</h4>
+     <div class="testimonial_rating_stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fad fa-star-half-alt"></i></div>
+     </div>
+     </div>
+     <div class="testimonial_description">
+     <p>As a serious e-sports player, I need gear that can keep up with me and my intense gaming sessions. Cyberpunk Gaming Gear has been a lifesaver! The products I've purchased are comfortable, durable, and perform amazingly well. I'm so impressed with the quality and value of the products from this company!</p>
+     </div>
+     <div class="testimonial_date_field"><span>22th February,2023</span></div>
+     </div>
+     </li>
+     <li>
+     <div class="testimonial_data_box">
+     <div class="testimonial_figure_box">
+     <figure><img class="lazy" src="https://static.tossdown.com/images/1a548b8a-e910-47a8-8635-eec52607e9ff.png" /></figure>
+     <div class="testimonial_reviewer_data">
+     <h4>Sarah, 37</h4>
+     <div class="testimonial_rating_stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fad fa-star-half-alt"></i></div>
+     </div>
+     </div>
+     <div class="testimonial_description">
+     <p>As a mother of two young gamers, I'm always looking for the best gaming gear for my kids. Cyberpunk Gaming Gear has been a great resource for me as they offer high-quality products at great prices. I know that my kids will be safe and comfortable while gaming with their new gear, and I'm so grateful to have found such a dependable company!</p>
+     </div>
+     <div class="testimonial_date_field"><span>4th March,2022</span></div>
+     </div>
+     </li>
+     <li>
+     <div class="testimonial_data_box">
+     <div class="testimonial_figure_box">
+     <figure><img class="lazy" src="https://static.tossdown.com/images/1a548b8a-e910-47a8-8635-eec52607e9ff.png" /></figure>
+     <div class="testimonial_reviewer_data">
+     <h4>Jessica Martin</h4>
+     <div class="testimonial_rating_stars"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fad fa-star-half-alt"></i></div>
+     </div>
+     </div>
+     <div class="testimonial_description">
+     <p>Lorem ipsum dolor sit amet, consectetur adipis -cing elit. Sed eget gravida magna. Etiam lacinia vel odio quis sagittis.</p>
+     </div>
+     <div class="testimonial_date_field"><span>4th August,2022</span></div>
+     </div>
+     </li>
+     </ul>
+     </div>
+     </div>
+     </div>
+     </section>
+   
+     <section class="footer-section">
+      <div class="custom_container">
+      <div class="footer-data-box">
+      <div class="footer-data-box-detail ">
+      <div class="footer-detail-box-one">
+      <figure><img src="images/logo.png" /></figure>
+      <p>Come and treat yourself to the perfect balance of flavors.</p>
+     
+      <div class="social-links">
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+         <a href="https://www.instagram.com//"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></div>
+      </div>
+      </div>
+      <div class="footer-data-box-detail">
+      <div class="footer-detail-box-two">
+      <div class="footer-detail-box-heading accordion modtitle">
+      <h3 class="footer-collapse-icons">Site Links</h3>
+      </div>
+      <div class="modcontent panel">
+      <ul class="footer-detail-box-content-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Products</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      <div class="footer-data-box-detail">
+      <div class="footer-detail-box-two">
+      <div class="footer-detail-box-heading accordion modtitle">
+      <h3 class="footer-collapse-icons">Useful Links</h3>
+      </div>
+      <div class="modcontent panel">
+      <ul class="footer-detail-box-content-list">
+      <li><a href="contact.html">Contact </a></li>
+      <li><a href="about.html">About</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+    
+      <div class="footer-data-box-detail">
+        <div class="footer-detail-box-two">
+        <div class="footer-detail-box-heading accordion modtitle">
+        <h3 class="footer-collapse-icons">Product categories</h3>
+        </div>
+        <div class="modcontent panel">
+        <ul class="footer-detail-box-content-list">
+        <li><a href="shop.html">All categories</a></li>
+        <li><a href="shop.html">Headphone</a></li>
+        <li><a href="shop.html">Bags </a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+    
+      <div class="footer-data-box-detail">
+      <div class="footer-detail-box-two ">
+      <div class="footer-detail-box-heading accordion modtitle">
+      <h3 class="footer-collapse-icons">Contact Us</h3>
+      </div>
+      <div class="modcontent panel accordion modtitle">
+      <ul class="footer-contact-list ">
+        <li><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:test@gmail.com">test@gmail.com</a></li>
+      <li><i class="fas fa-phone" aria-hidden="true"></i><a href="tel: 700 00 000">700 00 000</a></li>
+      <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i><a>Jernbanetorget 1, 0154 Oslo</a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+    
+    
+      </div>
+      <div class="footer_disclamer"><p><strong>Disclamer:
+      </strong>This website is a result of a group project, performed to learn Web
+technologies. All the information provided here is a result of imagination. Any
+resemblance with real companies or products is a coincidence."</p></div>
+      </div>
+      </section>
+               
+</body>
+</html>
