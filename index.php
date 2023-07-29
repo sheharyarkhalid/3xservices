@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include("head.php"); ?>
 
-<?php include("header.php"); ?>
 
-<?php include("banner.php"); ?>
+<?php 
 
-<?php // include("about_section.php"); ?>
+include("head.php"); 
 
-<?php include("services_section.php"); ?>
+ include("header.php"); 
 
-<?php include("contact_section.php"); ?>
+ include("banner.php"); 
 
-<?php include("plan_section.php"); ?>
+  include("about_section.php"); 
 
-<?php include("footer.php"); ?>
+ include("services_section.php"); 
+
+ include("contact_section.php"); 
+
+ include("plan_section.php"); 
+
+ include("footer.php");
+  ?>
 
 </body>
 
