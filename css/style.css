@@ -48,10 +48,19 @@ header {
 }
 
 .header_bar .logo a {
-  font-size: 36px;
-  color: #09afee;
+  font-size: 18px;
+  color: #000;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+}
+.header_bar .logo a b {
+  color: #ed2a3b !important;
+  font-weight: 900!important;
+  font-size: 31px;
+  text-transform: uppercase;
+  padding-right: 3px;
+  font-family: 'Concert One', cursive;
+
 }
 
 .header_bar .nav_bar ul {

@@ -5,35 +5,39 @@
                 <i class="fas fa-bars"></i>
             </button>
             <div class="logo">
-                <a href="/"><img src="images/logo.png" /></a>
+                <a href="/"><b>3x</b>Services</a>
             </div>
 
             <div class="nav_bar">
                 <ul>
-                    <li>
-                        <div class="dropdown">
-                            <a>Services</a>
-                            <div class="dropdown-content">
-                                <a href="/web-scraping">Web Scraping</a>
-                                <a href="/website-developement">Website Developement</a>
-                                <a href="/a-building-and-seo">a Building and Seo</a>
-                            </div>
+                    <li><a href="/">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                        <div class="dropdown-menu">
+                        <a>Website Development & Management</a>
+                                <a>App Developement & Management</a>
+                                <a>Email Marketing</a>
+                                <a>Social Media Marketing & Channel Management</a>
+                                <a>Google Business Management Services</a>
+                                <a>Digital Media Ad Spend Management Services</a>
+                                <a>Organic Content Creation and Blog Management</a>
+                                <a>Search Engine Optimization (SEO) Services</a>
                         </div>
-
-
                     </li>
-                    <li><a>Work</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a href="/contact-us">Contact Us</a></li>
-                    <li><a href="/about-us">About Us</a></li>
+                    
+                    <li><a>Portfolio</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+
 
                 </ul>
             </div>
             <div class="call_us">
-
-
-                <span><a href="/contact-us">Get A Quote</a></span>
-
+                <div class="header_contact_links">
+                    <a><i class="fas fa-envelope-open"></i></a>
+                    <a><i class="fas fa-phone-alt"></i></a>
+                </div>
+                <span><a>Book a Demo</a></span>
             </div>
         </div>
     </div>
@@ -44,21 +48,29 @@
 
     <div class="responsive_nav">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a>Work</a></li>
-            <li><a>Blog</a></li>
-            <li><a href="/contact-us">Contact Us</a></li>
-            <li><a href="/about-us">About Us</a></li>
+        <li><a href="/">Home</a></li>
+
+
+                    <li class="res_dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                        <div class="dropdown-menu">
+                        <a>Website Development & Management</a>
+                                <a>App Developement & Management</a>
+                                <a>Email Marketing</a>
+                                <a>Social Media Marketing & Channel Management</a>
+                                <a>Google Business Management Services</a>
+                                <a>Digital Media Ad Spend Management Services</a>
+                                <a>Organic Content Creation and Blog Management</a>
+                                <a>Search Engine Optimization (SEO) Services</a>
+                        </div>
+                    </li>
+                    
+                    <li><a>Portfolio</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
 
         </ul>
     </div>
-    <div class="dropdown">
-        <a>Services</a>
-        <div class=mobile-dropdown-content>
-            <a href="/web-scraping">Web Scraping</a>
-            <a href="/website-developement">Website Developement</a>
-            <a href="/a-building-and-seo">a Building and Seo</a>
-        </div>
-    </div>
+    
 
 </section>

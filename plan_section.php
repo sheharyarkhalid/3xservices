@@ -20,9 +20,9 @@
                 </div>
             </div>
             <div class="marketing_home_section_four_right_content">
-                <div class="marketing_home_section_four_right_content_box"><small>Interactive vibe digital</small>
+                <div class="marketing_home_section_four_right_content_box"><small>3X Services</small>
                     <h2>Ready to get started <span class="heading_dot_color">?</span></h2>
-                    <p></p>
+                   
                     <div class="home_section_four_right_content_links"><a href="/contact" class="getting_quote">Get A Quote</a></div>
                 </div>
             </div>

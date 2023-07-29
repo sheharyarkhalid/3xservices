@@ -2,7 +2,7 @@
     <div class="custom_container">
         <div class="marketing_home_section_five_content_box">
             <div class="marketing_home_section_five_content"><small>contact us</small>
-                <h2>Taking your digital Marketing Campaign to a Next Level<span class="heading_dot_color">.</span></h2>
+                <h2>Taking your Business to a Next Level<span class="heading_dot_color">.</span></h2>
                 <p>Fill out the form below to reach us or <span class="inner_detail_content_five">call us at: <a href="tel:+92 300 2020008">+92 300 2020008</a> </span></p>
             </div>
             <form method="POST" action="website/new_contact_us" id="quick_contact_new_recap" novalidate="novalidate">
@@ -17,6 +17,7 @@
                             <div class="contact_us_form_fields_data"><label>COMPANY</label> <span><input type="text" placeholder="Enter company" required="" name="company" value="" /><i class="fas fa-building"></i></span> <label for="company" generated="true" class="error"></label></div>
                         </div>
                         <div class="contact_us_form_fields_data-two"><label>Message</label> <textarea cols="20" rows="5" placeholder="Type your message here...." name="message"></textarea></div>
+                        <div class="contact_us_form_submit_btn"><button type="submit">Submit Message</button></div>
                     </div>
                 </div>
             </form>

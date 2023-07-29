@@ -7,7 +7,7 @@
 
 <?php include("banner.php"); ?>
 
-<?php include("about_section.php"); ?>
+<?php // include("about_section.php"); ?>
 
 <?php include("services_section.php"); ?>
 

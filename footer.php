@@ -3,7 +3,10 @@
         <div class="footer-data-box">
             <div class="footer-data-box-detail">
                 <div class="footer-detail-box-one">
-                    <figure><img src="https://static.tossdown.com/images/2760b153-df8d-4fce-b9ef-cdd1d1817fac.png"></figure>
+                <div class="logo">
+                <a href="/"><b>3x</b>Services</a>
+            </div>
+            <p>We build brands with razor-sharp strategy. We analyze every aspect of your industry and apply our digital expertise to provide a road map for success..</p>
                 </div>
             </div>
             <div class="footer-data-box-detail">
@@ -14,11 +17,10 @@
                     <div class="modcontent panel">
                         <ul class="footer-detail-box-content-list">
                             <li><a>Home</a></li>
-                            <li><a>Custom order</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>Offers</a></li>
-                            <li><a>Location</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Portfolio</a></li>
                             <li><a>About</a></li>
+                            <li><a>contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -30,11 +32,10 @@
                     </div>
                     <div class="modcontent panel">
                         <ul class="footer-detail-box-content-list">
-                            <li><a>Login</a></li>
                             <li><a>privacy policy</a></li>
                             <li><a>Delivery policy</a></li>
                             <li><a>Faq’s</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li><a>Blog</a></li>
                         </ul>
                     </div>
                 </div>
@@ -46,7 +47,7 @@
                     </div>
                     <div class="modcontent panel accordion modtitle">
                         <ul class="footer-contact-list ">
-                            <li><i class="fal fa-phone-alt" aria-hidden="true"></i><a href="tel:+92 1122333">+92 1122333</a></li>
+                            <li><i class="fal fa-phone-alt" aria-hidden="true"></i><a href="tel:+92 3024065093">+92 3024065093</a></li>
                             <li><i class="fal fa-envelope" aria-hidden="true"></i><a href="mailto:info@gmail.com">info@gmail.com</a></li>
                         </ul>
                     </div>
@@ -62,3 +63,5 @@
         </div>
     </div>
 </section>
+<div class="copy_right_section"><span>@ 2023 <b>3X Services</b> -All Rights Reserved</span></div>
+

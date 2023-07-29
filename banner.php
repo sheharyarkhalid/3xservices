@@ -1,29 +1,18 @@
-<!-- <div class="pattern">
-    <section class="banner_section">
-        <div class="custom_container">
-            <div class="Banner_slider">
-                <div class="Banner">
-                    <div class="home_page_banner_box">
-                        <div class="home_page_banner_figcaption">
-                            <small>Autocrat Studio</small>
-                            <h4>We Have Got You Covered</h4>
-                            <p>
-                                Autocrat Studio is a digital marketing agency that
-                                specializes in helping businesses grow online sales
-                            </p>
-                            <div class="home_page_banner_figcaption_btn">
-                                <a href="/contact-us">Get Started</a>
-                            </div>
-                        </div>
-                        <figure>
-                            <img src="images/banner.png" alt="bannerimg" />
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div> -->
+<section class="banner_section_two">
+<div class="custom_container">
+<div class="home_page_banner_box_two">
+<div class="home_page_banner_figcaption_two">
+<h4>Software Development Consulting for
+Innovators</h4>
+<p>We make online selling easy for you.
+Request a FREE trial!</p>
+<div class="home_page_banner_figcaption_two_btn"><a href="#contact">Schedule a Call</a></div>
+</div>
+<figure><img src="https://images-beta.tossdown.com/site/b260af5c-b31e-488e-8526-15f94eae4b7a.webp"></figure>
+</div>
+</div>
+</section>
+
 
 <div class="degital_marketing_home_section_one">
     <div class="custom_container">
@@ -31,15 +20,16 @@
             <figure><img class="lazy" src="https://tossdown.site/images/46ccf08cb3e474685fea354f3d5fac23_1639636453.png" /></figure>
             <div class="marketing_home_section_one_content">
                 <h2>We Have Got You Covered<span class="heading_dot_color">.</span></h2>
-                <p>Interactive Vibe Digital is a digital marketing agency that specializes in <span class="inner_detail_content">helping businesses grow online sales</span></p>
-                <a href="/contact">Get A Quote</a>
+                <p>3X services is an agency that specializes in <span class="inner_detail_content">helping businesses grow online sales</span></p>
+              
             </div>
         </div>
     </div>
-</div>
+</div> 
 
       <div class="degital_marketing_home_section_seven">
     <div class="custom_video_container">
+       
         <div class="video_section_thumbnail">
             <figure class="home_banner_slider">
                 <img class="lazy"  src="https://tossdown.site/images/6d4ac1c651f1d7264a64bd7e27f127dc_1642423934.png" /> 
@@ -50,7 +40,7 @@
                  
                 </figure>
             <div class="home_banner_slider-dots"></div>
-           
+            <div class="thumbnail_custom_extra_image"></div>
         </div>
        
     </div>
