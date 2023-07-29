@@ -10,8 +10,8 @@
           $('.home_banner_slider').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: false,
-            autoplaySpeed: 1000,
+            autoplay: true,
+            autoplaySpeed: 2000,
             dots: true,
             appendDots: $('.home_banner_slider-dots'),
             fade: true,
